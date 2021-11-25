@@ -4,7 +4,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css"/>
     </head>
-    <body>
+    <body onload="startTime()"> <!--The timer-->
+        <div id="time"></div>
         <div>
             <form id="form1" action="">
                 <label for="name">Name:</label>
@@ -27,9 +28,9 @@
         </div>
         <p id="textline1">Click the button to sort the names</p>
         <div>
-            <p id="op"></p>
+            <p id="op"></p> <!--The output sorted array-->
             <label for="cbox1">Check it change the color</label>
-            <input id="cbox" type="checkbox" name="cbox1" value="Background-color" onclick="colorchange()">
+            <input id="cbox" type="checkbox" name="cbox1" value="Background-color">
             <br>
             <button type="button" onclick="myfunction()">Click Me</button>
             <script src="script.js"></script>
