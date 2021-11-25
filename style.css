@@ -1,6 +1,11 @@
 body {
     background-color: lightgray;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;;
 }
+#time{
+    text-align: right;
+}
+
 #form1 {
     background-color: crimson;
     text-align: center;
