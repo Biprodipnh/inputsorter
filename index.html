@@ -4,8 +4,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css"/>
     </head>
-    <body onload="startTime()"> <!--The timer-->
+    <!--The timer-->
+    <body onload="startTime()"> 
         <div id="time"></div>
+        <!--Input Form-->
         <div>
             <form id="form1" action="">
                 <label for="name">Name:</label>
@@ -25,10 +27,13 @@
                 <br>
                 
             </form>
+            <!--add more field-->
+            <button onclick="add_field()">Add more +</button>
         </div>
         <p id="textline1">Click the button to sort the names</p>
         <div>
-            <p id="op"></p> <!--The output sorted array-->
+            <label id="srt" for="output">The Sorted List</label>
+            <p id="op" name="output"></p> <!--The output sorted array-->
             <label for="cbox1">Check it change the color</label>
             <input id="cbox" type="checkbox" name="cbox1" value="Background-color">
             <br>
