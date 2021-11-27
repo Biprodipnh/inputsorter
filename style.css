@@ -4,6 +4,8 @@ body {
 }
 #time{
     text-align: right;
+    border:2px solid DodgerBlue;
+    border-style: ridge;
 }
 
 #form1 {
@@ -12,12 +14,18 @@ body {
 }
 
 #textline1 {
-    background-color: darkcyan;
+    background-color: dodgerblue;
     text-align: center;
 }
 
-#name2, #name4 {
+input:nth-child(even) {
+    border-style: outset;
     background-color: darkgrey;
+}
+
+input:nth-child(odd) {
+    border-style: outset;
+    background-color: white;
 }
 
 button {
@@ -27,4 +35,8 @@ button {
 
 button:hover {
     background-color: darkolivegreen;
+}
+
+#srt {
+    border:2px solid DodgerBlue;
 }
