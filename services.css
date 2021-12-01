@@ -1,0 +1,56 @@
+body {
+    background-color: lightgray;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+#time{
+    text-align: right;
+    border:2px solid DodgerBlue;
+    border-style: ridge;
+    border-radius: 10px;
+}
+
+#form1 {
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#form1 ul li{
+    list-style: none;
+}
+
+#textline1 {
+    background-color: dodgerblue;
+    text-align: center;
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 10px;
+}
+
+input:nth-child(even) {
+    border-style: outset;
+    background-color: darkgrey;
+}
+
+
+
+button {
+    background-color: crimson;
+    transition: 100ms;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: darkolivegreen;
+}
+
+#srt {
+    border:2px solid DodgerBlue;
+    border-radius: 10px;
+}
+
+#op {
+    border-radius: 10px;
+}
