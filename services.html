@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="services.css"/>
+    </head>
+    <!--The timer-->
+    <body onload="startTime()"> 
+        <div id="time"></div>
+        <!--Input Form-->
+        <div>
+            <form id="form1" action="">
+                <label for="name">Name:</label>
+                <input id="name1" type="text" name="name" placeholder="Name" required>
+                <br>
+                <label for="name">Name:</label>
+                <input id="name2" type="text" name="name" placeholder="Name" required>
+                <br>
+                <label for="name">Name:</label>
+                <input id="name3" type="text" name="name" placeholder="Name" required>
+                <br>
+                <label for="name">Name:</label>
+                <input id="name4" type="text" name="name" placeholder="Name" required>
+                <br>
+                <label for="name">Name:</label>
+                <input id="name5" type="text" name="name" placeholder="Name" required>
+                <br>
+                
+            </form>
+            <!--add more field-->
+            <button onclick="addField()">Add more +</button>
+            <br>
+        </div>
+        <div>
+            <br>
+            <label id="srt" for="output">The Sorted List Below:</label>
+            <!--The output sorted array-->
+            <p id="op" name="output"></p> 
+            <br>
+            <!--For the checkbox-->
+            <label id="checkb" for="cbox1">Check it change the color</label>
+            <input id="cbox" type="checkbox" name="cbox1" value="Background-color">
+            <br>
+            <p id="textline1">Click the button to sort the names</p>
+            <br>
+            <button type="button" onclick="myFunction()">Click Me</button>
+            <br>
+            <button type="button"><a href="index.html"> Go to home page</a></button>
+            <script src="services.js"></script>
+        </div>
+    </body>
+</html>
